@@ -1,1 +1,7 @@
+<div class="box-container">
+  <div class="box box-primary" *ngFor="let _ of [].constructor(numberOfSquares)"></div>
 
+  <div class="box box-add" (click)="addSquare()" >
+    <img src="assets/plus.svg" alt="add square">
+  </div>
+</div>
